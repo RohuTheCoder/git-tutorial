@@ -78,7 +78,8 @@ cd myproject</pre></code>
  <p>The git merge command allow you to merge the other branch with the currently active branch.</p>
  <code><pre>git merge <branch name></pre></code>
  <img src="sample images/merge.png" width="450">
-
+<h3>Git Fetch</h3>
+<p>
 
 
 
