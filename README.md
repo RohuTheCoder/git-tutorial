@@ -34,7 +34,7 @@ cd myproject</pre></code>
 <code><pre>git status</pre></code>
 <img src="sample images/status.png" width="450">
 <p>Now the file has been added to the staging environment.</p>
-<h3>Git Add All<h3>
+<h3>Git Add All</h3>
 <p>We can add more than one files in Git, but we have to run add command repeatedly.Git facilitates us with a unique option of the add command by which we can add all the available files at once.To add all the files from the repository,run the add command with <b>-A</b> option.We can use '.' instead of <b>-A</b> option.This command will stage all the files at a time.</p>
 <code><pre>git add -A</pre></code>
         <code><pre>git add .</pre></code>
