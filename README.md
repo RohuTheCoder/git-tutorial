@@ -44,6 +44,40 @@ cd myproject</pre></code>
  <code><pre>git add -A</pre></code>
  <img src="sample images/addall.png" width=450">
  <p>In the above output, all the files have been added. The status of all files is displaying as staged.</p>
+ <h3>Git Reset</h3>
+ <p>We can undo a git add operation.We can do it through git reset command.</p>
+ <code><pre>git reset <filename></pre></code>
+ <img src="sample images/reset.png" width="450">
+ <h3>Git Commit</h3>
+ <p>The git commit command is used to record the changes in the reposiory.Git considers each commit change point or save point.It is a point in the project where you can go back to if you find a bug,or want to make a change.When we commit, we should always include a message.</p>
+ <code><pre>git commit -m "Commit message"</pre></code>
+ <img src="sample images/commit.png" width="450">
+ <p>The Staging Environment has been committed to our repo, with the message: "First commit".</p>
+ <h3>Git Clone</h3>
+ <p>The git clone command is used to make a loacal copy of a remote repository.It accesses he repositry through a remote URL.</p>
+ <code><pre>git clone <repository URL></pre></code>
+ <img src="sample images/clone.png" width="450">
+ <h3>Git Branch</h3>
+ <p>A branch is a version of repository that diverges from the main working project.A Git project can have more than one branch. These branches are a pointer to a snapshot of your changes. </p>
+ <p>The git branch command is used to create a new branch.</p>
+ <code><pre>git branch <branch name></pre></code>
+ <img src= "sample images/branch.png" width="450">
+ <p>You can list all of the available branches in your repostory by using the following command.</p>
+ <code><pre>git branch --list</pre></code>
+ <p><b>or</b></p>
+ <code><pre>git branch</pre></code>
+ <img src="sample images/branchlist.png" width="450">
+ <p>You can delete the specified branch.Below is the command to do this.</p>
+ <code><pre>git branch -d <branch name></pre></code>
+ <img src="sample images/delete.png" width="450">
+ <h3>Git checkout</h3>
+ <p>The git checkout command is used to switch between the branches without making a commit.</p>
+ <code><pre>git checkout <branch name></pre></code>
+ <img src="sample images/checkout.png" width="450">
+ <h3>Git Merge</h3>
+ <p>The git merge command allow you to merge the other branch with the currently active branch.</p>
+ <code><pre>git merge <branch name></pre></code>
+ <img src="sample images/merge.png" width="450">
 
 
 
