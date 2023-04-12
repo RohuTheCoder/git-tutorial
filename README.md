@@ -21,7 +21,7 @@ cd myproject</pre></code>
 <h3>Initialize Git</h3>
 <p>Once you have navigated to the correct folder, you can initialize Git on that folder</p>
 <code><pre>git init<pre></code>
-<img src="sample images/init.PNG" width="450">
+<img src="sample images/init.png" width="450">
 <p>You just created your first git Repository!</p>
 
 
