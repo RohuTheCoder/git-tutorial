@@ -84,7 +84,7 @@ cd myproject</pre></code>
 <img src="sample images/fetch.png" width="450">
 <p>In the above output, the complete repository has fetched from a remote URL.</p>
 <h3>Git Pull</h3>
-<p>The term pull is used to receive data from Github.It fetches and merges changes from the remote repository to local repository.The git pull is a combination of two caommands, git fetch followed by git merge.</p>
+<p>The term pull is used to receive data from Github.It fetches and merges changes from the remote repository to local repository.The git pull is a combination of two commands, git fetch followed by git merge.</p>
 <code><pre>git pull <remote branch URL></pre></code>
 <img src="sample images/pull.png" width="450">
 <p>There is another way to pull the repository. We can pull the repository by using the git pull command.</p>
