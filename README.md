@@ -97,7 +97,10 @@ git pull origin master  </pre></code>
 <code><pre> git push option [Remote URL branch name refspec...]</pre></code>
 <img src="sample images/push.png" width="450">
 <p>git push origin master pushed the local content on the master branch of the remote location.</p>
-
+<h3>Git Log</h3>
+<p>Git log command is one of the most useful commands of git.Every time you need to check the history,you have to use the git log command.The basic git log command will display the most recent commits and the status of the head</p>
+<code><pre>git log</pre></code>
+<img src="sample images/log.png" width="450">
 
 
 
