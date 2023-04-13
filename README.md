@@ -101,6 +101,10 @@ git pull origin master  </pre></code>
 <p>Git log command is one of the most useful commands of git.Every time you need to check the history,you have to use the git log command.The basic git log command will display the most recent commits and the status of the head</p>
 <code><pre>git log</pre></code>
 <img src="sample images/log.png" width="450">
+<h3>Git Rm</h3>
+<p>In Git, the term rm stands for remove.The key function of git rm is to remove tracked files from the Git index. Additionally, it can be used to remove files from both the working directory and staging index.</p>
+<code><pre>git rm file Name</pre></code>
+<img src="sample images/remove.png" width="450">
 
 
 
