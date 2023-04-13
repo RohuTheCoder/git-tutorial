@@ -80,21 +80,21 @@ cd myproject</pre></code>
  <img src="sample images/merge.png" width="450">
 <h3>Git Fetch</h3>
 <p>We can fetch the complete repository with the help of fetch command from a repository URL.</p>
-<code><pre>git fetch <repository Url></pre></code>
+<code><pre>git fetch repository Url</pre></code>
 <img src="sample images/fetch.png" width="450">
 <p>In the above output, the complete repository has fetched from a remote URL.</p>
 <h3>Git Pull</h3>
 <p>The term pull is used to receive data from Github.It fetches and merges changes from the remote repository to local repository.The git pull is a combination of two commands, git fetch followed by git merge.</p>
-<code><pre>git pull <remote branch URL></pre></code>
+<code><pre>git pull remote branch URL</pre></code>
 <img src="sample images/pull.png" width="450">
 <p>There is another way to pull the repository. We can pull the repository by using the git pull command.</p>
-<code><pre>git pull <options><remote>/<branchname> 
+<code><pre>git pull options remotebranchname
 git pull origin master  </pre></code>
 <img src="sample images/pullorigin" width="450">
 <p>In the above syntax, the term origin stands for the repository location where the remote repository situated. Master is considered as the main branch of the project.</p>
 <h3>Git Push</h3>
 <p>The push term refers to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repository</p>
-<code><pre> git push <option> [<Remote URL><branch name><refspec>...]</pre></code>
+<code><pre> git push option [Remote URL branch name refspec...]</pre></code>
 <img src="sample images/push.png" width="450">
 <p>git push origin master pushed the local content on the master branch of the remote location.</p>
 
